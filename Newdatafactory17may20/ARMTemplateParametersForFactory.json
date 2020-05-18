@@ -11,8 +11,14 @@
 		"AzureBlobStorage1_connectionString": {
 			"value": ""
 		},
+		"AzureBlobStorage2_trg_connectionString": {
+			"value": ""
+		},
 		"AmazonS31_properties_typeProperties_accessKeyId": {
 			"value": "AKIAJ7RJK3WSRLFWSIOQ"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://awskeyvault17may2020.vault.azure.net/"
 		}
 	}
 }
