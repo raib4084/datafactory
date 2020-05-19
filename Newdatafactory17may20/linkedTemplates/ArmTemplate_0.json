@@ -23,9 +23,9 @@
 			"type": "string",
 			"defaultValue": "AKIAJ7RJK3WSRLFWSIOQ"
 		},
-		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+		"AzureKeyVault_properties_typeProperties_baseUrl": {
 			"type": "string",
-			"defaultValue": "https://awskeyvault17may2020.vault.azure.net/"
+			"defaultValue": "https://Blobsecret.vault.azure.net/"
 		}
 	},
 	"variables": {
@@ -77,14 +77,14 @@
 			"dependsOn": []
 		},
 		{
-			"name": "[concat(parameters('factoryName'), '/AzureKeyVault1')]",
+			"name": "[concat(parameters('factoryName'), '/AzureKeyVault')]",
 			"type": "Microsoft.DataFactory/factories/linkedServices",
 			"apiVersion": "2018-06-01",
 			"properties": {
 				"annotations": [],
 				"type": "AzureKeyVault",
 				"typeProperties": {
-					"baseUrl": "[parameters('AzureKeyVault1_properties_typeProperties_baseUrl')]"
+					"baseUrl": "[parameters('AzureKeyVault_properties_typeProperties_baseUrl')]"
 				}
 			},
 			"dependsOn": []
