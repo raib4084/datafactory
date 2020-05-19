@@ -1,20 +1,13 @@
 {
 	"name": "AmazonS31",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
 	"properties": {
 		"annotations": [],
 		"type": "AmazonS3",
 		"typeProperties": {
 			"serviceUrl": "https://awskeyvault17may2020.vault.azure.net/",
 			"accessKeyId": "AKIAJ7RJK3WSRLFWSIOQ",
-			"secretAccessKey": {
-				"type": "AzureKeyVaultSecret",
-				"store": {
-					"referenceName": "AzureKeyVault",
-					"type": "LinkedServiceReference"
-				},
-				"secretName": "Amazons3secret"
-			}
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIk5FV0RBVEFGQUNUT1JZMTdNQVkyMF8zZGVhNjYyNy0xMWFjLTQ3ZmQtOTczNC0yZjIxMGVkZGY5YmMiDQp9"
 		}
-	},
-	"type": "Microsoft.DataFactory/factories/linkedservices"
+	}
 }
