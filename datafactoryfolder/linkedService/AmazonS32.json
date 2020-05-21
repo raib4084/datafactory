@@ -1,0 +1,19 @@
+{
+	"name": "AmazonS32",
+	"properties": {
+		"annotations": [],
+		"type": "AmazonS3",
+		"typeProperties": {
+			"serviceUrl": "",
+			"accessKeyId": "AKIAJ7RJK3WSRLFWSIOQ",
+			"secretAccessKey": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "AzureKeyVault1",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "blobsecretS3"
+			}
+		}
+	}
+}
