@@ -2,7 +2,7 @@
 	"name": "DelimitedText1",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "AmazonS31",
+			"referenceName": "AmazonS32",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
