@@ -12,7 +12,7 @@
 					"referenceName": "AzureKeyVault1",
 					"type": "LinkedServiceReference"
 				},
-				"secretName": "blobsecretS3"
+				"secretName": "S3secret"
 			}
 		}
 	}
