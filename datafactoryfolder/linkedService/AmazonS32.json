@@ -9,10 +9,10 @@
 			"secretAccessKey": {
 				"type": "AzureKeyVaultSecret",
 				"store": {
-					"referenceName": "AzureKeyVault1",
+					"referenceName": "AzureKeyVault2",
 					"type": "LinkedServiceReference"
 				},
-				"secretName": "S3secret"
+				"secretName": "Bikashsecret1"
 			}
 		}
 	}
